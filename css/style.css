@@ -20,6 +20,38 @@ div {
   padding: 0.5rem;
 }
 
+img {
+  -webkit-animation-name: img-ani; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: img-ani;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes img-ani {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  
+/* Standard syntax */
+@keyframes img-ani {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}  
+
 .toolbar {
   position: absolute;
   top: 0;
@@ -28,9 +60,9 @@ div {
   color: rgb(255,255,255);
   width: 100vw;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 0.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
   animation-name: example;
-  animation-duration: 0.6s;
+  animation-duration: 0.8s;
   overflow: hidden;
 }
 
@@ -66,9 +98,9 @@ div {
   max-width: 90vw;
   width: 60rem;
   -webkit-animation-name: main-ani; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 0.6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
   animation-name: main-ani;
-  animation-duration: 0.6s;
+  animation-duration: 0.8s;
 }
 
 /* Safari 4.0 - 8.0 */
