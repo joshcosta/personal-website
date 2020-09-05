@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url(../images/background.jpeg) no-repeat top right fixed, #777;
+  background: url(../images/background.jpg) no-repeat top right fixed, #777;
   background-size: cover;
   background-blend-mode: multiply;
   font-family: "BioRhyme";
